@@ -1,2 +1,3 @@
-# utils
-Utilities and Code Snippets
+# UTILS
+
+Re-Usable Utilities and Code Snippets
