@@ -1,9 +1,0 @@
-a_reactive <- reactivePoll(6000, session,
-checkFunc = function(){
-
-dbGetQuery(connect_db, "SELECT COUNT((DAY)) FROM POC1.A ;")
-},
-valueFunc = function(){
-dbGetQuery(connect_db,'SELECT * FROM POC1.A;')
-}
-)
